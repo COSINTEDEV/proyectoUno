@@ -10,22 +10,37 @@ table tr th{
 }
 .Usuario{
   border-radius: 25px;
+  
   background-color: #1D204B;
-  margin: 0px 795px 0px 0px ;
+  height: auto;
+  width: 200px;
+
 } 
 
 .grid-item {
   display: inline-grid;
 }
+.item1 {
+  grid-row: 1 / 5;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  
+  
+}
+.grid-container div{
+  display: inline-grid;
+  
+}
 
 
 .DentroU{
- 
-  top: 1px;
   border-radius: 25px;
   
-  margin-top: 0px;
-  padding-bottom: 100px;
+  height: 86%;
+  width: 100%;
+  margin-bottom: 15%;
   background-color: #5746EA;
 
 }
@@ -38,28 +53,60 @@ table tr th{
 
 .Marco{
   background-color: #FF8B64;
+  border-radius: 25px;
+  height: 200px;
+  width: 200px;
 }
 
 .Marco2 {
   background-color: #56C2E6;
+  border-radius: 25px;
+  height: 200px;
+  width: 200px;
 }
 
 .Marco3{
   background-color: #FE5F7D;
+  border-radius: 25px;
+  height: 200px;
+  width: 200px;
 }
 
 .Marco4{
   background-color: #4BCF83;
+  border-radius: 25px;
+  height: 200px;
+  width: 200px;
+  margin-top: 35px;
 }
 
 .Marco5{
   background-color: #7235D1;
+  border-radius: 25px;
+  height: 200px;
+  width: 200px;
+  margin-top: 35px;
 }
 
 .Marco6 {
   background-color: #F1C75B;
+  border-radius: 25px;
+  height: 200px;
+  width: 200px;
+  margin-top: 35px;
 }
 
 .Ficha{
   background-color:   #1D204B;
+  border-radius: 25px;
+  height: 86%;
+  width: 100%;
+  margin-top: 15%;
+
+}
+.Marco7{
+  border-radius: 25px;
+  background-color: #F1C75B;
+  height: 200px;
+  width: 200px;
 }
