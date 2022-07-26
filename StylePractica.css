@@ -1,26 +1,47 @@
+*{
+  font-family: 'Rubik', sans-serif;
+  color:white;
+}
+
 body{
   background-color: #0D1323;
 }
+h1{
+  padding-top: 0px;
+}
+p{
+  line-height: 0.7;
+}
+h4{
+  color: #444981;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.H3{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .Content{
   margin: 120px 150px 190px 190px;
 }
+
 table tr th{
   height: auto;
   width: 500px;
 }
+
 .Usuario{
   border-radius: 25px;
-  
+  text-align: center;
   background-color: #1D204B;
-  height: auto;
+  height: 450px;
   width: 200px;
 
 } 
 
-.grid-item {
-  display: inline-grid;
-  align-content: space-around;
-}
+
+
 
 
 
@@ -37,27 +58,42 @@ table tr th{
 
 .grid-container div{
   display: inline-grid;
-  
-  
 }
+
+.grid-item {
+  display: inline-grid;
+  align-content: space-around;
+}
+
+.grid-container .grid-item {
+  text-align: end;
+}
+.grid-container .grid-item img{
+  margin-left: 100px;
+}
+
 
 
 .DentroU{
   border-radius: 25px;
   
-  height: 86%;
+  height: 95%;
   width: 100%;
-  margin-bottom: 15%;
+  margin-bottom: 25%;
   background-color: #5746EA;
 
 }
 
 .DentroU img{
+  margin-left: 70px;
+  border: 3px solid white;
   margin-top: 15px;
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
   border-radius: 70%;
 }
+
+
 
 .Marco{
   background-color: #FF8B64;
@@ -102,6 +138,11 @@ table tr th{
   height: 200px;
   width: 200px;
   margin-top: 35px;
+
+}
+
+.Marco6 .Ficha .grid-container .grid-item img{
+  margin-left: 60px;
 }
 
 .Ficha{
@@ -110,14 +151,18 @@ table tr th{
   height: 86%;
   width: 100%;
   margin-top: 15%;
+  text-align: center;
 
 }
+
+
 .Marco7{
   border-radius: 25px;
   background-color: #F1C75B;
   height: 200px;
   width: 200px;
 }
+
 
 @media only screen and  (max-width: 1155px) {
   .grid-container{
