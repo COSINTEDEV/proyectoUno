@@ -267,6 +267,7 @@ table tr th{
     display: grid;
     grid-template-columns: auto auto  ;
     flex-direction: row;
+    text-align: justify;
   }
   
   
@@ -285,7 +286,7 @@ table tr th{
     line-height: 0px;
   }
   .contenido1 h1{
-    margin-top: 0px;
+    margin-top: 10px;
   }
   .contenido2 {
     display: grid;
