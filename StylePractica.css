@@ -36,7 +36,7 @@ table tr th{
   text-align: center;
   background-color: #1D204B;
   height: 450px;
-  width: 200px;
+  width: 250px;
 
 } 
 
@@ -64,6 +64,7 @@ table tr th{
 .grid-item {
   display: inline-grid;
   align-content: space-around;
+  
 }
 .grid-container h2 {
   font-size:50px;
@@ -119,45 +120,45 @@ table tr th{
 .Marco{
   background-color: #FF8B64;
   border-radius: 25px;
-  height: 200px;
-  width: 200px;
+  height: 200px ;
+  width: 250px;
 }
 
 .Marco2 {
   background-color: #56C2E6;
   border-radius: 25px;
-  height: 200px;
-  width: 200px;
+  height: 200px ;
+  width: 250px;
 }
 
 .Marco3{
   background-color: #FE5F7D;
   border-radius: 25px;
-  height: 200px;
-  width: 200px;
+  height: 200px ;
+  width: 250px;
 }
 
 .Marco4{
   background-color: #4BCF83;
   border-radius: 25px;
-  height: 200px;
-  width: 200px;
+  height: 200px ;
+  width: 250px;
   margin-top: 35px;
 }
 
 .Marco5{
   background-color: #7235D1;
   border-radius: 25px;
-  height: 200px;
-  width: 200px;
+  height: 200px ;
+  width: 250px;
   margin-top: 35px;
 }
 
 .Marco6 {
   background-color: #F1C75B;
   border-radius: 25px;
-  height: 200px;
-  width: 200px;
+  height: 200px ;
+  width: 250px;
   margin-top: 35px;
 
 }
@@ -173,7 +174,10 @@ table tr th{
   width: 100%;
   margin-top: 15%;
   text-align: center;
-
+}
+.Ficha p{
+  margin: 20px;
+  line-height: 1;
 }
 
 
@@ -185,7 +189,7 @@ table tr th{
 }
 
 
-@media only screen and  (max-width: 1194px) {
+@media only screen and  (max-width: 1384px) {
   .grid-container{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -199,12 +203,12 @@ table tr th{
     background-color: #FE5F7D;
     border-radius: 25px;
     height: 200px;
-    width: 200px;
+    width: 250px;
     margin-top: 35px;
   }
 }
 
-@media only screen and  (max-width: 1000px) {
+@media only screen and  (max-width: 1133px) {
   .grid-container{
     display: grid;
     grid-template-columns: auto auto ;
@@ -216,7 +220,7 @@ table tr th{
     background-color: #56C2E6;
     border-radius: 25px;
     height: 200px;
-    width: 200px;
+    width: 250px;
     margin-top: 35px;
   }
   
@@ -230,7 +234,7 @@ table tr th{
 }
 
 
-@media only screen and  (max-width: 781px) {
+@media only screen and  (max-width: 900px) {
   .Content{
       width:fit-content;
       margin: 70px auto 0px auto;
