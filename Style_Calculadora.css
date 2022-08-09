@@ -1,8 +1,12 @@
 .container{
+    align-content: center;
+}
+.calculadora{
     width: 400px;
     height: 450px;
     background-color: #ffa372;
     border-radius: 20px;
+    margin: auto;
 }
 .teclado{
     display:flex;
